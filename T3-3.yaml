@@ -1,0 +1,9 @@
+openapi: "3.0.3"
+info:
+  title: "T3"
+  description: ""
+  version: "3"
+tags: []
+paths: {}
+components:
+  schemas: {}
