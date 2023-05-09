@@ -1,0 +1,33 @@
+openapi: "3.0.3"
+info:
+  title: "delete 3"
+  description: "cop"
+  version: "3"
+tags: []
+paths:
+  /test:
+    get:
+      summary: ""
+      description: ""
+      parameters:
+        - name: "12345661234567890876543212345678990"
+          in: "query"
+          description: "12345661234567890876543212345678901234566123456789087654321234567890123456612345678908765432123456789012345661234567890876543212345612345661234567890876543212345678901234566123456789087654321234567890123456612345678908765432123456789012345661234567890876543212345678907890"
+          required: false
+          schema:
+            type: "string"
+            default: ""
+      responses:
+        200:
+          description: "success response"
+          content:
+            application/json:
+              schema:
+                type: "object"
+                properties:
+                  msg:
+                    type: "string"
+              example:
+                - msg: "success"
+components:
+  schemas: {}
